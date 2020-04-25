@@ -1,0 +1,3 @@
+1. I did a react app in which you can create notes by typing in a title and pressing the "Add Note" button. Once it is created, you can choose to edit it by clicking on the edit icon and saving it by clicking on the save icon or simply delete it by pressing the delete button.
+2. All the note components are editable, deletable, draggable, and display both the title and text. What didn't work was automatically reseting the input bar text upon clicking "Add Note".
+3. No extra credit

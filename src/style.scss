@@ -1,14 +1,91 @@
 body, html {
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+    background-color: #376880;
     height: 100%;
     color: black;
   }
 
-  .logo {
-    background-image: url('outcome2.jpg');
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
+
+.start{
+  display:flex;
+  flex-direction: column;
+}
+
+#add_note{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#compose{
+  height: 6vh;
+  width: 25vw;
+  border: none;
+  background-color: rgb(238, 238, 240);
+  border-bottom: 2px solid #BDDEFF;
+  box-shadow: 1px 1px 3px rgb(218, 218, 218);
+  margin-right: 8px;
+  text-align: center;
+  font-size: 18px;
+  color:black;
+}
+
+#input_button{
+  width: 15vw;
+    height: 6vh;
+    background-color: #A0D7E8;
+    border: none;
+    font-size: 16px;
+    color:black;
+}
+
+#input_button:hover{
+  background-color: #376880;
+    transition: .4s;
+}
+
+.draggable{
+  width: 45vh;
+  background-color: #BAE9FF;
+  
+}
+
+.whole_note{
+  display:flex;
+  flex-direction: column;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color:#6ED1FF;
+  height: 4vh;
+  
+}
+
+.title{
+  display:flex;
+  background-color:#94B9CA;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  height: 7vh;
+}
+
+i.far,
+i.fas{
+  margin-right: 10px;
+  color:#376880;
+}
+
+.noteBody{
+  background-color: #BAE9FF;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
